@@ -1,0 +1,1003 @@
+body{
+    margin:0px;
+    
+}
+
+span{
+    color:rgb(90, 30, 15);
+    font-size: 90px;
+    font-weight: 700px;
+    margin-bottom: -20px;
+}
+
+.immagini_cerchi{
+    height:40%;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+#sfondo_header_e_nav{
+    background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/page/hp2024.png");
+    background-size: cover;
+}
+
+nav{
+    height:15vh;
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+header{
+    height:40vh;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#immagine_omino{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:fixed;
+    left:10px;
+    bottom: 10px;
+}
+
+section{
+    background-color:rgb(251, 247, 236);
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+
+#mostra_introduzione{
+    background-color: burlywood;
+    color:brown;
+    border-radius:20px;
+    margin-top: 10px;
+    padding:10px;
+}
+
+#mostra_introduzione:hover{
+    background-color: aqua;
+}
+
+.img_javascript{
+    height:200px;
+    width:200px;
+}
+
+
+
+.div_section{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width:80%;
+    text-align:center;
+}
+
+section h2{
+    font-family:'Crimson Pro', sans-serif;
+    text-align: center;
+    color:rgb(90, 30, 15);
+    font-size:48px;
+    margin-bottom:-10px;
+    
+    
+}
+section h3{
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    text-align:center;
+    color:rgb(90, 30, 15);
+}
+section p{
+    color: rgb(90, 30, 15);
+
+font-family: "titillium web", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+line-height: 26px;
+text-align: center;
+}
+
+.a_button{
+    border-radius:20px;
+    background-color:rgb(85, 27, 17);
+    padding:12px 48px;
+    color: white;
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+a.a_button:hover{
+    background-color: black;
+}
+
+section a{
+    text-decoration:none;
+}
+
+#flex_sorprese{
+    margin-top:30px;
+  width:80%;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+}
+
+#div_sorpresa{
+    height:350px;
+  margin-right:15px;
+  width:50%;
+  background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/launchBox/giochi-AR-01_BANNER-HP.jpg");
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  text-align: center;
+}
+
+#div_mousse{
+    height:350px;
+  margin-left:15px;
+  width:50%;
+  background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/launchBox/mousse-di-mele-con-frollini-senza-zuccheri-aggiunti_BANNER-HP.jpg");
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  text-align: center;
+}
+
+#flex_sorprese span{
+  color:rgb(0, 122, 194);
+  font-family: "titillium web", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+
+
+.flex-container{
+    margin-top: 20px;
+    display:flex;
+    justify-content:space-around;
+}
+
+div.flex-container img{
+    height:500px;
+    width:500px;
+    margin:10px;
+}
+
+.flex-container_per_colonne{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+div.flex-container_per_colonne img{
+    height:100px;
+    width:45%;
+    margin:10px;
+}
+
+#div_2{
+    margin-top:70px;
+    background-color:rgb(255, 237, 174);
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-biscotti{
+    
+    width:60%;
+    margin-bottom:25px;
+    display:flex;
+    justify-content:space-around;
+    flex-grow: 0;
+}
+
+#div_ingresso{
+    width:60%;
+    margin-bottom:25px;
+    display:flex;
+    justify-content:space-around;
+    flex-grow: 0;
+}
+
+#div_ingresso p{
+    color: rgb(90, 30, 15);
+
+font-family: "titillium web", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight:bold;
+
+text-align: center;
+}
+
+#pulsanti_orari{
+    margin-top: 20px;
+    display:flex;
+    justify-content:space-around;
+}
+
+#pulsanti_orari a{
+    border-radius: 10px;
+    padding:10px;
+    background-color: aliceblue;
+    color:black;
+    margin:5px;
+}
+
+
+#pulsanti_orari a:hover{
+    background-color:lightgreen;
+
+}
+#div_ingresso img{
+    height:300px;
+    width:300px;
+    margin:-20px -50px;
+}
+
+#div_ingresso div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div_biscotti{
+    width:calc(100% /3);
+    margin-right:15px;
+    background-color: white;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.div_biscotti img{
+    margin-top:25px;
+    width:100%;
+}
+
+
+#div_2 span{
+    background-color: rgb(211, 198, 188);
+    color:white;
+    border-radius:10px;
+    
+    padding: 7px 20px 7px 35px;
+    font-size: 20px;
+}
+
+#div_2 div.div_biscotti img{
+   
+    background-color:rgb(255, 237, 174);
+}
+
+#div_2 div.div_biscotti h3{
+
+    text-align: center;
+}
+
+.p_riquadro{
+    border: 1px solid rgb(228, 228, 228);
+    padding:15px;
+    color: rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height:auto;
+    line-height: 23px;
+    text-align: center;
+}
+
+
+.div_yougurt{
+    width:calc(100% / 3);
+    margin-right: 15px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.div_yougurt img{
+    height:220px;
+    width:250px;
+}
+
+div.container-biscotti h3{
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.p_social{
+    color:rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    line-height: 22px;
+    text-align:left;
+}
+
+
+#img_ballerina{
+    width:80%;
+    margin-top:130px;
+    margin-bottom: 50px;
+}
+
+.div_larghezza_ridotta{
+    width:65%;
+    text-align: center;
+}
+
+.img_menu{
+    width:100%;
+}
+
+
+
+div.div_larghezza_ridotta div{
+    
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:15px;
+}
+
+div.div_larghezza_ridotta div img{
+    margin-top:-30px;
+    height:220px;
+    width:320px;
+    
+}
+
+#div4{
+    background-color: rgb(255, 237, 174);
+    width:100%;
+    margin-top: 65px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div4 h2{
+    margin:-5px;
+}
+
+#div4 div{
+    width:60%;
+    display:flex;
+    
+}
+
+#div4 .div_per_colonne{
+    padding:10px;
+    width:15%;
+    display:flex;
+    flex-direction: column;
+}
+
+.div_per_colonne p{
+    color:rgb(90, 30, 15);
+    font-style:normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top:5px;
+    text-align: center;
+    
+}
+
+.div_per_colonne p:hover{
+    color: rgb(85, 26, 139);
+}
+
+div.div_per_colonne img{
+    height: 135px;
+    width:135px;
+}
+
+.white_div{
+    background-color: white;
+    margin:15px 35px 90px 70px;
+    padding:20px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.white_div img{
+    background-color: rgb(255, 237, 174);
+    margin:10px;
+    
+}
+
+
+#mostra_footer{
+    border-radius:20px;
+    background-color:chartreuse;
+    padding:12px 48px;
+    color:darkred;
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#mostra_footer:hover{
+    background-color:azure;
+}
+
+
+
+footer{
+    background-color: rgb(251, 247, 236);
+}
+
+
+footer p{
+    color:rgb(77, 25, 0);
+    font-family: "titillium web", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    line-height: 14px;
+    
+}
+footer a{
+    color:rgb(77, 25, 0);
+}
+
+.div_sopra{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+div.div_sopra img{
+    width:12%;
+    margin-top:-50px;
+}
+#div_contatti{
+    width:55%;
+    margin:20px 10px 3px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div_contatti a{
+    text-decoration:none;
+    
+}
+.div_ricette{
+    width:70%;
+    margin:-18px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.div_pan_di_stelle{
+    margin-top:10px;
+    margin-bottom:20px;
+    width: 23%;
+    text-align: center;
+}
+
+.div_pan_di_stelle p{
+
+    font-family: "titillium web", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 12px;
+    
+}
+
+.div_pan_di_stelle a{
+    text-decoration: none;
+    color: rgb(0, 122, 194);
+}
+
+
+
+
+#div_gestisci{
+    border:1px solid rgb(104, 182, 49);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:22px;
+    padding-right:22px;
+    text-align: center;
+    color:rgb(104, 182, 49);
+}
+
+
+#div_gestisci:hover{
+    background-color:rgb(104, 182, 49);
+    color:white;
+}
+
+
+
+#div_social{
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(77,25,0);
+}
+
+
+#div_social img{
+    margin: 10px 40px;
+    height:40px;
+    width:40px;
+}
+
+
+@media  screen and (max-width: 700px) {
+    body{
+        margin:0px;
+    }
+    article{
+        width:700px;
+        margin:0px;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    nav img{
+        height:60%;
+        margin-top: 10px;
+    }
+
+    #immagine_omino{
+        height:50px;
+        width:50px;
+        border-radius:0%;
+        position:fixed;
+        left:0px;
+        bottom: 0px;
+        
+        
+    }
+
+    #flex_sorprese{
+        display:block;
+        width:100%;
+    
+    }
+    #div_sorpresa{
+        width:100%;
+        height:400px;
+        background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/launchBox/giochi-AR-01_BANNER-HP.jpg");
+        background-size:cover;
+        display:flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #div_mousse{
+      width:100%;
+      height:400px;
+      background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/launchBox/mousse-di-mele-con-frollini-senza-zuccheri-aggiunti_BANNER-HP.jpg");
+      background-size:cover;
+      display:flex;
+      align-items:center;
+      margin-left:0px;
+    }
+
+    div.flex-container{
+        width:100%;
+        display:block;
+        
+        
+    }
+
+    div.flex-container_per_colonne{
+        width:100%;
+        display:block;
+        
+    }
+
+    div.flex-container img{
+        width:100%;
+        margin-top: 50px;
+    }
+
+    div.flex-container_per_colonne img{
+        width:40%;
+    }
+
+
+    .immagine_biscotti{
+        display:none;
+    }
+
+    #div_2{
+        margin-top:0px;
+        background-color:rgb(255, 237, 174);
+        display:block;
+        width:100%;
+        
+    }
+    
+    #div_2 div{
+        
+        width:90%;
+        margin-bottom:20px;
+        display:block;
+        text-align: center;
+        
+        position:relative;
+        left:23px;
+    }
+
+    .div2_allineamento_per_colonne{
+        display:block;
+        width:80%;
+    }
+    
+    .div_biscotti{
+        width:90%;
+        display: block;
+        margin-right:0px;
+        background-color: white;
+        padding:20px;
+        
+    }
+
+    .div_larghezza_ridotta{
+        width:80%;
+        text-align: center;
+    }
+
+    div.div_larghezza_ridotta div{
+    
+        width:80%;
+        display:flex;
+        margin-bottom:20px;
+        position:relative;
+        left:70px;
+    }
+    
+    .img_ballerina{
+        width:100%;
+        margin-top:50px;
+        margin-bottom: 50px;
+    }
+
+
+    
+    #div4 div{
+        width:90%;
+        display:block;
+        
+    }
+    #div4 .div_per_colonne{
+        padding:10px;
+        width:30%;
+        display:inline-block;
+        position:relative;
+        left:130px;
+        text-align:center;
+    }
+
+    .white_div{
+        background-color: white;
+        margin:15px 0px 90px 0px;
+        padding:20px 30px;
+        text-align: center;
+    
+    }
+
+    .div_sopra{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    div.div_sopra img{
+        width:30%;
+        margin-top:-60px;
+    }
+
+
+    #div_contatti{
+        display:block;
+        text-align: center;
+    }
+    
+    #div_gestisci{
+        border:1px solid rgb(104, 182, 49);
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .div_ricette{
+        display:block;
+        text-align: center;
+    }
+
+    .div_ricette a{
+        text-decoration:none;
+        display: block;
+        font-family: "titillium web", sans-serif;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .div_pan_di_stelle{
+        margin-top:30px;
+        margin-bottom:10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .hidden{
+        display: none;
+    }
+
+
+    #visualizza_notizie{
+        display: block;
+    }
+
+    #visualizza_notizie div{
+        width:100%;
+    }
+
+    #visualizza_spotify{
+        display:block;
+
+    }
+
+    #visualizza_spotify div{
+        width:100%;
+    }
+
+    #visualizza_voli{
+        display:block;
+    }
+
+    #visualizza_voli div{
+        width:100%;
+    }
+
+    #visualizza_torte{
+        display:block;
+    }
+
+    #visualizza_torte div{
+        width:100%;
+    }
+
+
+
+}
+
+
+
+
+.hidden{
+    display: none;
+}
+
+/*sezione api*/
+#notizie_api{
+    text-align: center;
+    
+}
+
+#data_notizia{
+    margin-top: 10px;
+}
+
+#visualizza_notizie{
+    display:flex;
+    background-color: rgb(255, 237, 174);
+    margin: 20px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#torta{
+    text-align: center;
+}
+
+#visualizza_torte{
+    display:flex;
+    background-color: rgb(255, 237, 174);
+    margin: 20px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.ingredienti_torta{
+    border:1px solid black;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.item_div_senza_oauth2{
+    background-color: white;
+    border:1px solid black;
+    margin: 10px 5px;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+div.item_div_senza_oauth2 h2{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.item_div_senza_oauth2 p{
+    color:black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+div.item_div_senza_oauth2 img{
+    width:70%;
+    height:70%;
+    margin:20px;
+}
+
+div.item_div_senza_oauth2 a:hover{
+    color:bisque;
+    background-color:blue;
+}
+
+
+
+#visualizza_voli{
+    display:flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#volo{
+    text-align: center;
+}
+
+
+
+#spotify{
+   
+    margin-top:10px;
+    text-align: center;
+    
+    
+    
+}
+#visualizza_spotify{
+    display:flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+
+
+.div_da_visualizzare_oauth2{
+    background-color: white;
+    border:2px solid black;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px 20px;
+    
+    
+}
+div.div_da_visualizzare_oauth2 img{
+    width:40%;
+    height:40%;
+    margin:20px 20px;
+
+}
+
+.titolo_spotify{
+    padding: 10px;
+    text-align: center;
+    color:red;
+    font-size:35px;
+}
+
+
+.artisti_spotify{
+    text-align: center;
+    color:red;
+    font-size:25px;
+}
+
+div.div_da_visualizzare_oauth2 a:hover{
+    background-color: bisque;
+    color:blue;
+}
+
+.div_di_artisti{
+    display:flex;
+    flex-direction: column;
+}
+
+.visualizza_risultati{
+    width:100%;
+}
+
+#mostra_api{
+    background-color: white;
+    color:black;
+    border-radius:20px;
+    margin-top: 10px;
+    padding:10px;
+}
+
+#mostra_api:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+#api{
+    width:100%;
+}
